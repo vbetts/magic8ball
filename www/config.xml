@@ -2,7 +2,7 @@
 <!DOCTYPE xml>
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
-	id="com.phonegap.hello-world" version="1.0.0">
+	id="com.phonegap.Magic-8-Ball" version="1.0.0">
 
 	<name>Magic 8 Ball</name>
 
