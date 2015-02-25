@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Magic 8 Ball</title>
-    <link rel="stylesheet" href="//code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
     <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-    <script src="//code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
     <script src="phonegap.js"></script>
     <script src="js/index.js"></script>
     <script src="js/question.js"></script>
@@ -32,7 +32,7 @@
                 <input type="text" id="name" name="name" required>
                 <p>Enter your yes-or-no question below.</p>
                 <textarea name="question" id="question" required></textarea>
-                <a type="submit" href="#answer" id="submitQuestion">
+                <a type="submit" href="#answer" id="submitQuestion" data-role="button">
                     Answer my question!
                 </a>
             </form>
@@ -46,8 +46,6 @@
         <!-- /footer -->
         <script type="text/javascript">
             registerSubmitHandler();
-        </script>
-        <script type="text/javascript">
             getAnswer();
         </script>
 
